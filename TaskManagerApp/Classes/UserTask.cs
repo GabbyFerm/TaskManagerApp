@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace TaskManagerApp.Classes
+namespace TaskManagerApp
 {
     public class UserTask
     {
@@ -20,7 +16,7 @@ namespace TaskManagerApp.Classes
             Id = id;
             Title = title;
             Description = description;
-            CreatedDate = createdDate ?? DateTime.Now; 
+            CreatedDate = createdDate ?? DateTime.Now;
             IsCompleted = false;
         }
     }
