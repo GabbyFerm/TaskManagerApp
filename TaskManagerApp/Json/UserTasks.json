@@ -1,0 +1,20 @@
+{
+  "userTasks": [
+    {
+      "Id": 1,
+      "Title": "Grocery shopping",
+      "Description": "Need to fill up the fridge",
+      "CreatedDate": "2024-11-01T10:00:00",
+      "CompletedDate": null,
+      "IsCompleted": false
+    },
+    {
+      "Id": 2,
+      "Title": "Wash the car",
+      "Description": "The car needs to be washed",
+      "CreatedDate": "2024-11-02T11:00:00",
+      "CompletedDate": "2024-11-02T12:00:00",
+      "IsCompleted": true
+    }
+  ]
+}
